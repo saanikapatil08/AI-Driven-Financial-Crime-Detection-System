@@ -1,0 +1,6 @@
+customer_id,R_e,triage_decision,triage_reason,requires_review
+CUST_00052,0.7246373887124992,REVIEW,Requires manual investigation,True
+CUST_00101,0.7085660299312635,BENIGN,Profile indicates legitimate activity (travel/business),False
+CUST_00129,0.8469271087259138,BENIGN,Profile indicates legitimate activity (travel/business),False
+CUST_00229,1.0,REVIEW,Requires manual investigation,True
+CUST_00382,0.8627936821643761,REVIEW,Requires manual investigation,True

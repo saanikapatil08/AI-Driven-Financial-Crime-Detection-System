@@ -1,0 +1,501 @@
+customer_id,segment,account_open_date,country_of_residence,occupation,notes,travel_tag
+CUST_00309,HNW,2021-03-10,UK,retired,,
+CUST_00417,Retail,2022-12-16,US,business_owner,Travels frequently for business,international
+CUST_00100,Retail,2020-11-22,US,retired,"Regular customer, no concerns",domestic
+CUST_00246,Retail,2020-05-05,US,retired,Recently relocated,domestic
+CUST_00242,Small Business,2022-11-30,US,retired,Recently relocated,
+CUST_00439,Retail,2021-01-01,CA,self_employed,High-value investor,domestic
+CUST_00069,HNW,2022-08-20,UK,employed,Travels frequently for business,
+CUST_00033,Retail,2023-01-27,UK,employed,"Regular customer, no concerns",international
+CUST_00384,Retail,2022-01-05,UK,employed,Recently relocated,international
+CUST_00070,Small Business,2021-08-02,US,retired,High-value investor,domestic
+CUST_00095,Retail,2020-12-31,US,employed,High-value investor,
+CUST_00270,Retail,2022-11-23,US,business_owner,Travels frequently for business,international
+CUST_00377,HNW,2022-08-18,US,employed,Recently relocated,domestic
+CUST_00307,HNW,2020-05-21,US,employed,Travels frequently for business,international
+CUST_00200,HNW,2021-05-21,UK,employed,"Regular customer, no concerns",domestic
+CUST_00050,Small Business,2022-03-01,US,business_owner,Travels frequently for business,domestic
+CUST_00418,Retail,2022-08-01,US,self_employed,"Regular customer, no concerns",domestic
+CUST_00121,Retail,2023-03-11,US,employed,Travels frequently for business,domestic
+CUST_00291,HNW,2021-05-22,US,retired,"Regular customer, no concerns",domestic
+CUST_00116,Retail,2020-06-16,US,self_employed,High-value investor,
+CUST_00366,HNW,2022-05-01,US,employed,High-value investor,domestic
+CUST_00172,Retail,2021-11-13,UK,retired,Recently relocated,international
+CUST_00080,Small Business,2020-04-03,US,employed,"Regular customer, no concerns",domestic
+CUST_00025,Retail,2021-09-23,US,employed,High-value investor,international
+CUST_00141,Retail,2022-02-21,US,retired,"Regular customer, no concerns",domestic
+CUST_00212,Retail,2022-10-28,UK,business_owner,Travels frequently for business,international
+CUST_00297,Retail,2020-10-06,US,retired,High-value investor,international
+CUST_00051,HNW,2020-07-08,US,retired,High-value investor,international
+CUST_00196,Retail,2020-02-22,UK,self_employed,Recently relocated,international
+CUST_00184,Retail,2021-07-06,CA,employed,,international
+CUST_00262,Retail,2021-07-08,US,business_owner,"Regular customer, no concerns",international
+CUST_00056,Retail,2021-04-20,CA,employed,Travels frequently for business,international
+CUST_00059,Retail,2020-03-22,US,business_owner,"Regular customer, no concerns",domestic
+CUST_00076,Retail,2021-09-01,US,self_employed,Recently relocated,domestic
+CUST_00466,Small Business,2021-12-20,US,retired,Travels frequently for business,international
+CUST_00387,Small Business,2020-04-19,US,self_employed,High-value investor,international
+CUST_00171,Retail,2021-09-28,US,employed,Recently relocated,international
+CUST_00094,Retail,2020-04-06,US,business_owner,Travels frequently for business,domestic
+CUST_00004,Retail,2021-10-02,US,retired,,international
+CUST_00311,HNW,2022-11-27,US,business_owner,,domestic
+CUST_00098,Retail,2021-05-03,UK,employed,,domestic
+CUST_00068,Retail,2022-01-04,US,retired,"Regular customer, no concerns",international
+CUST_00437,Small Business,2020-09-10,UK,business_owner,High-value investor,
+CUST_00211,Retail,2021-06-21,US,employed,"Regular customer, no concerns",domestic
+CUST_00382,Retail,2022-06-14,CA,retired,Travels frequently for business,
+CUST_00315,HNW,2021-12-19,US,business_owner,,domestic
+CUST_00419,Small Business,2021-07-21,CA,self_employed,High-value investor,domestic
+CUST_00498,Small Business,2021-10-30,US,business_owner,Recently relocated,international
+CUST_00319,HNW,2022-01-18,CA,employed,Travels frequently for business,domestic
+CUST_00459,Retail,2022-08-09,US,business_owner,"Regular customer, no concerns",domestic
+CUST_00165,Retail,2022-02-01,US,self_employed,"Regular customer, no concerns",domestic
+CUST_00487,Retail,2021-04-04,CA,retired,High-value investor,domestic
+CUST_00250,Retail,2023-03-14,CA,retired,Recently relocated,
+CUST_00143,HNW,2022-05-19,UK,employed,Recently relocated,international
+CUST_00144,Retail,2022-03-12,UK,retired,,
+CUST_00029,Retail,2021-05-05,UK,employed,Travels frequently for business,domestic
+CUST_00336,Retail,2022-04-07,CA,self_employed,"Regular customer, no concerns",international
+CUST_00293,Retail,2021-09-28,US,retired,"Regular customer, no concerns",domestic
+CUST_00139,Retail,2022-02-01,US,employed,Recently relocated,
+CUST_00132,Retail,2020-08-31,US,business_owner,,international
+CUST_00408,HNW,2020-08-08,US,self_employed,High-value investor,international
+CUST_00013,Retail,2020-09-07,UK,retired,,international
+CUST_00039,HNW,2021-05-21,UK,employed,Recently relocated,domestic
+CUST_00479,Retail,2023-03-15,UK,self_employed,High-value investor,domestic
+CUST_00364,Retail,2020-12-15,US,retired,Recently relocated,domestic
+CUST_00218,HNW,2020-09-14,US,self_employed,"Regular customer, no concerns",domestic
+CUST_00011,HNW,2020-10-27,CA,employed,,international
+CUST_00019,Retail,2020-05-13,CA,employed,Travels frequently for business,international
+CUST_00491,Retail,2021-06-09,US,employed,"Regular customer, no concerns",international
+CUST_00483,Retail,2020-01-11,US,self_employed,Travels frequently for business,domestic
+CUST_00414,Small Business,2022-08-30,US,business_owner,Recently relocated,international
+CUST_00427,Small Business,2020-01-03,US,self_employed,Recently relocated,international
+CUST_00499,Retail,2023-01-25,UK,retired,High-value investor,domestic
+CUST_00355,Small Business,2022-05-30,US,business_owner,,domestic
+CUST_00208,Retail,2022-04-16,CA,employed,,international
+CUST_00317,Retail,2020-04-22,UK,business_owner,High-value investor,domestic
+CUST_00275,HNW,2021-08-23,US,retired,High-value investor,international
+CUST_00122,Retail,2023-02-19,CA,business_owner,,
+CUST_00066,HNW,2020-04-30,US,retired,Recently relocated,domestic
+CUST_00338,Retail,2022-05-19,UK,retired,"Regular customer, no concerns",domestic
+CUST_00042,Retail,2023-03-19,US,retired,High-value investor,domestic
+CUST_00485,HNW,2022-07-10,UK,self_employed,,international
+CUST_00413,Retail,2022-10-26,CA,self_employed,Travels frequently for business,domestic
+CUST_00344,Retail,2021-01-15,UK,retired,"Regular customer, no concerns",international
+CUST_00130,HNW,2020-01-04,CA,retired,,international
+CUST_00458,Small Business,2021-09-18,US,business_owner,High-value investor,
+CUST_00362,HNW,2021-08-13,UK,retired,Travels frequently for business,domestic
+CUST_00238,Retail,2020-11-27,UK,employed,High-value investor,international
+CUST_00163,Retail,2021-06-25,UK,employed,"Regular customer, no concerns",
+CUST_00074,Retail,2020-03-13,CA,retired,High-value investor,international
+CUST_00328,Small Business,2022-10-28,US,self_employed,Recently relocated,international
+CUST_00006,HNW,2021-10-12,CA,retired,,
+CUST_00316,Retail,2022-12-24,US,business_owner,Recently relocated,international
+CUST_00105,Retail,2023-03-10,UK,business_owner,Travels frequently for business,domestic
+CUST_00395,Retail,2022-06-06,UK,retired,"Regular customer, no concerns",domestic
+CUST_00167,Retail,2020-11-03,US,self_employed,Recently relocated,domestic
+CUST_00179,Retail,2020-09-05,UK,self_employed,High-value investor,international
+CUST_00027,Small Business,2020-09-25,UK,self_employed,,domestic
+CUST_00405,Retail,2022-08-24,CA,employed,,
+CUST_00357,Small Business,2021-07-27,US,retired,,international
+CUST_00351,Retail,2021-12-04,US,retired,High-value investor,international
+CUST_00244,Retail,2020-09-21,US,retired,"Regular customer, no concerns",international
+CUST_00441,Small Business,2021-11-19,US,self_employed,Recently relocated,international
+CUST_00486,HNW,2023-03-15,CA,retired,High-value investor,international
+CUST_00187,Retail,2021-10-05,UK,business_owner,High-value investor,domestic
+CUST_00113,Retail,2020-09-03,UK,retired,Recently relocated,domestic
+CUST_00407,Small Business,2020-06-01,CA,retired,,domestic
+CUST_00397,Retail,2020-09-03,US,business_owner,Recently relocated,domestic
+CUST_00245,HNW,2021-06-14,CA,self_employed,Travels frequently for business,
+CUST_00431,Retail,2020-10-18,US,retired,High-value investor,
+CUST_00314,Retail,2020-09-09,US,employed,"Regular customer, no concerns",international
+CUST_00477,Retail,2020-06-06,US,self_employed,"Regular customer, no concerns",domestic
+CUST_00007,Retail,2022-09-23,CA,business_owner,,domestic
+CUST_00096,Small Business,2021-08-07,CA,self_employed,"Regular customer, no concerns",
+CUST_00129,Small Business,2022-11-14,CA,employed,Travels frequently for business,domestic
+CUST_00330,Retail,2022-10-03,UK,self_employed,Travels frequently for business,
+CUST_00014,Retail,2021-04-06,CA,retired,"Regular customer, no concerns",international
+CUST_00226,Retail,2022-11-09,CA,retired,Recently relocated,international
+CUST_00067,Retail,2021-03-28,US,retired,"Regular customer, no concerns",domestic
+CUST_00475,Retail,2020-05-15,US,business_owner,"Regular customer, no concerns",
+CUST_00055,Retail,2022-11-07,CA,business_owner,,
+CUST_00240,Retail,2020-10-05,US,employed,,domestic
+CUST_00188,Retail,2021-11-02,US,self_employed,,domestic
+CUST_00219,HNW,2020-07-03,US,self_employed,"Regular customer, no concerns",international
+CUST_00452,Retail,2021-01-03,US,business_owner,,
+CUST_00368,Small Business,2022-04-16,UK,employed,,domestic
+CUST_00325,Small Business,2021-11-12,US,business_owner,Travels frequently for business,international
+CUST_00138,HNW,2020-09-15,US,employed,,domestic
+CUST_00034,HNW,2023-03-30,CA,retired,"Regular customer, no concerns",domestic
+CUST_00135,HNW,2020-12-22,US,retired,Travels frequently for business,international
+CUST_00228,Small Business,2021-09-19,CA,retired,"Regular customer, no concerns",
+CUST_00052,Retail,2021-06-20,US,retired,,
+CUST_00092,Retail,2021-06-22,UK,retired,Travels frequently for business,domestic
+CUST_00166,HNW,2022-08-05,UK,employed,"Regular customer, no concerns",domestic
+CUST_00455,Retail,2020-01-06,US,business_owner,"Regular customer, no concerns",international
+CUST_00037,Retail,2021-07-13,US,business_owner,,domestic
+CUST_00109,Retail,2022-05-27,US,self_employed,High-value investor,international
+CUST_00341,Retail,2020-06-16,US,self_employed,High-value investor,international
+CUST_00248,HNW,2020-05-23,UK,self_employed,Travels frequently for business,domestic
+CUST_00279,Retail,2020-04-07,US,retired,Recently relocated,domestic
+CUST_00091,Small Business,2022-06-14,US,business_owner,High-value investor,domestic
+CUST_00385,HNW,2021-05-15,US,self_employed,High-value investor,domestic
+CUST_00389,Retail,2021-10-02,US,business_owner,"Regular customer, no concerns",
+CUST_00191,Retail,2022-12-14,US,employed,Recently relocated,international
+CUST_00251,HNW,2021-02-10,UK,employed,,
+CUST_00119,Retail,2022-07-27,CA,business_owner,"Regular customer, no concerns",domestic
+CUST_00324,Retail,2021-09-04,UK,self_employed,Recently relocated,international
+CUST_00093,HNW,2020-05-02,UK,business_owner,"Regular customer, no concerns",
+CUST_00359,Retail,2021-01-03,UK,retired,Travels frequently for business,domestic
+CUST_00155,HNW,2022-12-04,UK,business_owner,,international
+CUST_00406,Small Business,2021-06-30,US,retired,High-value investor,domestic
+CUST_00258,HNW,2022-03-27,US,business_owner,Travels frequently for business,domestic
+CUST_00199,Small Business,2020-03-08,US,self_employed,Travels frequently for business,
+CUST_00363,Retail,2021-02-27,US,business_owner,High-value investor,international
+CUST_00024,Retail,2021-07-07,US,business_owner,"Regular customer, no concerns",international
+CUST_00339,Retail,2022-03-11,CA,retired,Travels frequently for business,domestic
+CUST_00225,HNW,2022-12-11,US,business_owner,High-value investor,international
+CUST_00272,Retail,2020-02-28,US,self_employed,"Regular customer, no concerns",international
+CUST_00346,Retail,2022-09-24,UK,business_owner,Travels frequently for business,
+CUST_00304,Retail,2021-01-16,UK,self_employed,Recently relocated,international
+CUST_00442,Small Business,2023-02-13,US,self_employed,Travels frequently for business,international
+CUST_00343,Retail,2022-03-06,UK,business_owner,Travels frequently for business,
+CUST_00241,Small Business,2022-10-11,US,business_owner,"Regular customer, no concerns",international
+CUST_00299,Small Business,2020-12-16,UK,retired,Recently relocated,international
+CUST_00061,Small Business,2021-01-01,UK,employed,High-value investor,domestic
+CUST_00081,Retail,2023-03-16,UK,retired,"Regular customer, no concerns",domestic
+CUST_00450,Retail,2020-01-04,US,self_employed,Recently relocated,
+CUST_00202,Small Business,2022-03-06,US,employed,Recently relocated,domestic
+CUST_00398,Retail,2022-12-17,US,business_owner,"Regular customer, no concerns",domestic
+CUST_00197,HNW,2022-02-25,UK,self_employed,High-value investor,international
+CUST_00017,Retail,2020-05-23,US,employed,,domestic
+CUST_00432,Retail,2021-04-04,UK,employed,Recently relocated,
+CUST_00440,Retail,2023-03-27,CA,retired,Recently relocated,domestic
+CUST_00393,Retail,2021-08-15,US,self_employed,"Regular customer, no concerns",
+CUST_00016,Retail,2021-04-09,US,business_owner,High-value investor,
+CUST_00411,HNW,2021-12-13,US,retired,High-value investor,international
+CUST_00332,HNW,2023-01-25,US,business_owner,Travels frequently for business,domestic
+CUST_00177,Small Business,2021-12-29,US,business_owner,Recently relocated,domestic
+CUST_00446,Retail,2021-09-23,US,self_employed,High-value investor,domestic
+CUST_00125,Small Business,2022-05-25,US,self_employed,High-value investor,international
+CUST_00290,Small Business,2023-02-19,US,employed,Recently relocated,domestic
+CUST_00443,HNW,2021-08-14,US,business_owner,Travels frequently for business,domestic
+CUST_00400,HNW,2020-07-04,US,retired,Recently relocated,international
+CUST_00107,Retail,2021-10-15,CA,employed,High-value investor,domestic
+CUST_00428,Small Business,2020-02-13,US,business_owner,Recently relocated,domestic
+CUST_00472,Small Business,2020-10-15,US,self_employed,Recently relocated,domestic
+CUST_00040,HNW,2022-09-01,US,self_employed,High-value investor,domestic
+CUST_00321,Retail,2020-06-15,US,self_employed,High-value investor,
+CUST_00303,Retail,2021-05-15,CA,self_employed,High-value investor,international
+CUST_00234,Small Business,2021-05-02,US,business_owner,Travels frequently for business,domestic
+CUST_00190,Retail,2022-04-01,US,self_employed,"Regular customer, no concerns",domestic
+CUST_00150,Retail,2020-09-18,US,business_owner,High-value investor,domestic
+CUST_00157,Small Business,2020-04-07,UK,business_owner,"Regular customer, no concerns",
+CUST_00451,Retail,2022-07-04,CA,self_employed,Recently relocated,domestic
+CUST_00097,Retail,2022-05-17,CA,retired,Recently relocated,international
+CUST_00210,Retail,2021-10-05,UK,retired,"Regular customer, no concerns",domestic
+CUST_00280,HNW,2021-11-22,US,employed,,domestic
+CUST_00289,Small Business,2020-03-04,UK,employed,,international
+CUST_00142,Retail,2022-07-11,US,employed,"Regular customer, no concerns",domestic
+CUST_00429,Retail,2022-07-28,CA,business_owner,Travels frequently for business,international
+CUST_00209,Small Business,2023-02-10,US,retired,,
+CUST_00018,HNW,2022-01-22,CA,employed,Travels frequently for business,domestic
+CUST_00453,Retail,2020-05-05,US,employed,,domestic
+CUST_00102,Retail,2023-01-22,UK,self_employed,Travels frequently for business,domestic
+CUST_00079,Retail,2023-02-19,US,employed,Recently relocated,domestic
+CUST_00358,HNW,2021-02-13,US,business_owner,Recently relocated,international
+CUST_00356,HNW,2020-03-02,UK,business_owner,"Regular customer, no concerns",domestic
+CUST_00075,Retail,2022-07-07,US,self_employed,,
+CUST_00421,Retail,2021-07-10,UK,retired,"Regular customer, no concerns",domestic
+CUST_00078,HNW,2021-05-05,UK,employed,Recently relocated,
+CUST_00371,Small Business,2021-01-17,US,self_employed,,domestic
+CUST_00162,HNW,2020-06-02,US,employed,Recently relocated,domestic
+CUST_00449,HNW,2022-11-30,UK,self_employed,,
+CUST_00329,Retail,2020-03-01,US,self_employed,Recently relocated,international
+CUST_00099,Retail,2022-10-21,CA,employed,,international
+CUST_00178,Retail,2022-12-18,US,self_employed,Recently relocated,international
+CUST_00215,Retail,2022-05-28,CA,retired,Recently relocated,
+CUST_00425,Retail,2020-04-30,US,self_employed,Travels frequently for business,
+CUST_00231,HNW,2021-10-15,US,employed,"Regular customer, no concerns",international
+CUST_00394,Small Business,2022-07-17,US,employed,,domestic
+CUST_00373,Retail,2020-12-09,CA,business_owner,Recently relocated,
+CUST_00372,Small Business,2020-01-25,US,self_employed,Travels frequently for business,domestic
+CUST_00383,Retail,2020-11-11,US,business_owner,High-value investor,domestic
+CUST_00046,HNW,2020-05-29,US,self_employed,,domestic
+CUST_00494,HNW,2022-03-05,US,business_owner,Travels frequently for business,domestic
+CUST_00224,HNW,2023-02-13,US,retired,High-value investor,domestic
+CUST_00312,Retail,2022-09-16,US,business_owner,Travels frequently for business,
+CUST_00084,Retail,2022-05-05,US,self_employed,Travels frequently for business,
+CUST_00257,Retail,2022-08-29,CA,self_employed,Recently relocated,international
+CUST_00379,Retail,2022-11-28,UK,retired,High-value investor,international
+CUST_00375,HNW,2020-07-25,UK,self_employed,Recently relocated,international
+CUST_00444,Retail,2020-01-20,UK,retired,Travels frequently for business,
+CUST_00085,Retail,2020-10-20,US,self_employed,High-value investor,
+CUST_00424,Retail,2023-02-22,US,self_employed,High-value investor,domestic
+CUST_00131,Retail,2021-04-30,US,business_owner,Travels frequently for business,domestic
+CUST_00493,Retail,2021-11-19,US,business_owner,High-value investor,domestic
+CUST_00331,Retail,2022-03-03,US,self_employed,"Regular customer, no concerns",domestic
+CUST_00348,Retail,2021-06-23,CA,employed,Recently relocated,domestic
+CUST_00030,Retail,2022-09-10,US,business_owner,,domestic
+CUST_00181,Retail,2021-03-09,US,retired,"Regular customer, no concerns",international
+CUST_00038,Small Business,2022-01-27,CA,business_owner,Travels frequently for business,international
+CUST_00327,Small Business,2021-05-01,US,retired,High-value investor,
+CUST_00158,Small Business,2021-10-18,US,business_owner,,domestic
+CUST_00128,Retail,2021-12-05,CA,retired,Travels frequently for business,domestic
+CUST_00288,Retail,2020-07-29,CA,employed,Travels frequently for business,international
+CUST_00020,Small Business,2020-08-20,CA,employed,,domestic
+CUST_00010,HNW,2021-08-30,US,business_owner,High-value investor,domestic
+CUST_00266,Retail,2022-12-10,US,self_employed,,
+CUST_00300,Retail,2021-03-11,US,employed,Travels frequently for business,international
+CUST_00159,HNW,2020-03-12,UK,retired,Travels frequently for business,international
+CUST_00002,Retail,2020-05-31,CA,business_owner,Travels frequently for business,domestic
+CUST_00156,Retail,2020-05-21,UK,employed,Travels frequently for business,
+CUST_00445,Retail,2020-06-22,UK,self_employed,High-value investor,international
+CUST_00326,Retail,2021-08-26,US,retired,,domestic
+CUST_00120,Retail,2022-08-04,US,business_owner,,international
+CUST_00108,Retail,2021-05-07,US,business_owner,Recently relocated,domestic
+CUST_00058,HNW,2021-05-15,CA,business_owner,High-value investor,domestic
+CUST_00064,Retail,2020-07-04,UK,business_owner,Travels frequently for business,international
+CUST_00274,Small Business,2021-10-04,US,retired,"Regular customer, no concerns",domestic
+CUST_00126,Small Business,2020-08-12,US,retired,"Regular customer, no concerns",international
+CUST_00032,Retail,2023-04-01,US,employed,,domestic
+CUST_00350,Retail,2021-09-03,CA,self_employed,Recently relocated,domestic
+CUST_00409,Retail,2022-12-05,US,business_owner,Recently relocated,international
+CUST_00323,Small Business,2023-03-01,US,business_owner,"Regular customer, no concerns",domestic
+CUST_00457,Retail,2022-11-26,US,retired,,domestic
+CUST_00285,Retail,2021-04-01,US,retired,"Regular customer, no concerns",international
+CUST_00028,HNW,2021-09-21,US,employed,High-value investor,international
+CUST_00003,Retail,2022-10-03,UK,business_owner,Travels frequently for business,domestic
+CUST_00370,Retail,2022-06-30,UK,business_owner,,
+CUST_00386,HNW,2022-07-08,CA,self_employed,Travels frequently for business,domestic
+CUST_00008,Retail,2022-11-06,US,employed,,international
+CUST_00318,Retail,2022-03-02,US,self_employed,,international
+CUST_00484,Small Business,2022-09-05,US,employed,Recently relocated,international
+CUST_00072,Small Business,2022-05-09,US,retired,,
+CUST_00217,Retail,2021-05-19,CA,retired,High-value investor,international
+CUST_00474,HNW,2021-02-07,UK,business_owner,Recently relocated,domestic
+CUST_00213,Retail,2020-07-26,UK,business_owner,Recently relocated,domestic
+CUST_00000,Retail,2022-07-05,US,retired,,
+CUST_00053,HNW,2021-10-11,US,business_owner,Recently relocated,international
+CUST_00464,Small Business,2023-01-15,UK,business_owner,Travels frequently for business,domestic
+CUST_00381,Small Business,2022-09-14,UK,employed,High-value investor,domestic
+CUST_00426,Retail,2021-01-07,US,retired,High-value investor,
+CUST_00198,Retail,2022-12-18,US,retired,High-value investor,
+CUST_00415,Small Business,2022-06-10,US,business_owner,,international
+CUST_00342,Retail,2020-11-21,UK,employed,,
+CUST_00015,Retail,2022-10-08,US,employed,Recently relocated,international
+CUST_00490,Small Business,2020-09-22,US,business_owner,"Regular customer, no concerns",international
+CUST_00206,Retail,2020-01-04,US,business_owner,"Regular customer, no concerns",international
+CUST_00320,Retail,2021-03-14,UK,self_employed,High-value investor,domestic
+CUST_00396,Retail,2020-05-05,US,retired,,domestic
+CUST_00148,Retail,2022-05-14,CA,business_owner,High-value investor,
+CUST_00378,HNW,2020-12-10,UK,employed,,
+CUST_00352,Retail,2021-09-22,US,employed,"Regular customer, no concerns",international
+CUST_00281,Retail,2022-08-12,US,retired,High-value investor,
+CUST_00153,Retail,2021-12-21,US,employed,"Regular customer, no concerns",international
+CUST_00101,HNW,2022-12-22,CA,business_owner,Travels frequently for business,
+CUST_00401,HNW,2021-06-22,CA,self_employed,"Regular customer, no concerns",international
+CUST_00461,Retail,2022-02-28,UK,business_owner,Recently relocated,domestic
+CUST_00367,Small Business,2022-09-30,US,retired,Recently relocated,international
+CUST_00189,Small Business,2020-03-16,UK,business_owner,"Regular customer, no concerns",
+CUST_00259,Retail,2022-02-19,CA,self_employed,,domestic
+CUST_00041,HNW,2021-09-07,UK,business_owner,"Regular customer, no concerns",international
+CUST_00005,Small Business,2021-04-15,US,business_owner,High-value investor,international
+CUST_00448,HNW,2020-03-17,US,business_owner,High-value investor,international
+CUST_00012,Retail,2020-11-13,CA,employed,,international
+CUST_00154,Retail,2021-07-04,UK,retired,,international
+CUST_00022,HNW,2020-12-26,CA,business_owner,High-value investor,international
+CUST_00492,Small Business,2020-11-24,UK,retired,High-value investor,international
+CUST_00261,Small Business,2022-06-27,US,retired,"Regular customer, no concerns",domestic
+CUST_00460,Retail,2022-08-11,CA,retired,,domestic
+CUST_00147,Retail,2020-02-04,CA,employed,Recently relocated,domestic
+CUST_00149,Retail,2021-11-29,CA,employed,Travels frequently for business,domestic
+CUST_00216,Retail,2022-07-04,US,retired,Recently relocated,
+CUST_00353,Small Business,2021-05-10,UK,self_employed,Travels frequently for business,international
+CUST_00048,Retail,2022-11-13,US,business_owner,High-value investor,international
+CUST_00077,Small Business,2022-06-16,US,employed,Travels frequently for business,international
+CUST_00223,Retail,2020-07-09,UK,employed,High-value investor,domestic
+CUST_00031,Retail,2022-09-17,UK,retired,High-value investor,international
+CUST_00117,HNW,2021-10-23,US,self_employed,"Regular customer, no concerns",domestic
+CUST_00313,Retail,2022-04-18,CA,business_owner,Travels frequently for business,domestic
+CUST_00063,Retail,2023-04-09,US,business_owner,High-value investor,international
+CUST_00347,Small Business,2022-08-05,US,business_owner,High-value investor,domestic
+CUST_00185,Retail,2021-05-02,US,business_owner,,domestic
+CUST_00468,Retail,2021-03-30,US,employed,"Regular customer, no concerns",domestic
+CUST_00087,Small Business,2022-02-05,UK,self_employed,"Regular customer, no concerns",domestic
+CUST_00247,Small Business,2021-05-06,CA,business_owner,Travels frequently for business,international
+CUST_00173,Retail,2020-04-06,US,business_owner,High-value investor,
+CUST_00283,HNW,2021-12-26,CA,business_owner,,international
+CUST_00306,Retail,2023-04-08,US,self_employed,,domestic
+CUST_00239,Retail,2022-08-28,CA,employed,High-value investor,
+CUST_00021,Retail,2022-12-13,US,employed,High-value investor,international
+CUST_00001,Small Business,2020-02-01,CA,business_owner,Recently relocated,international
+CUST_00360,HNW,2020-02-05,CA,business_owner,High-value investor,domestic
+CUST_00036,Retail,2021-07-07,UK,employed,Travels frequently for business,international
+CUST_00220,Small Business,2023-02-19,US,employed,,international
+CUST_00402,Small Business,2022-05-18,US,self_employed,High-value investor,international
+CUST_00136,Small Business,2020-06-14,US,employed,Recently relocated,international
+CUST_00369,Retail,2023-02-09,US,retired,Recently relocated,international
+CUST_00103,Retail,2023-04-04,US,employed,High-value investor,international
+CUST_00273,Retail,2023-01-26,UK,self_employed,High-value investor,international
+CUST_00065,Retail,2021-09-03,UK,retired,"Regular customer, no concerns",
+CUST_00269,HNW,2021-06-24,US,self_employed,Travels frequently for business,domestic
+CUST_00463,Retail,2021-02-08,UK,self_employed,,
+CUST_00392,Retail,2021-03-10,US,business_owner,High-value investor,domestic
+CUST_00404,Retail,2023-03-30,US,employed,Recently relocated,domestic
+CUST_00287,Retail,2020-07-15,CA,retired,,international
+CUST_00267,HNW,2021-07-28,UK,business_owner,Travels frequently for business,international
+CUST_00349,Retail,2021-08-09,UK,employed,"Regular customer, no concerns",international
+CUST_00044,Retail,2023-04-05,US,business_owner,High-value investor,
+CUST_00388,HNW,2021-05-07,US,self_employed,"Regular customer, no concerns",international
+CUST_00438,HNW,2020-05-04,US,employed,High-value investor,domestic
+CUST_00083,Retail,2020-11-25,US,employed,,international
+CUST_00256,Retail,2020-10-17,US,retired,Travels frequently for business,
+CUST_00302,Retail,2021-05-30,US,employed,Travels frequently for business,international
+CUST_00233,Retail,2022-04-20,US,self_employed,Recently relocated,international
+CUST_00354,Small Business,2022-10-24,UK,employed,Recently relocated,domestic
+CUST_00123,HNW,2022-10-01,US,employed,Travels frequently for business,
+CUST_00478,Retail,2023-01-26,US,retired,Travels frequently for business,
+CUST_00465,Retail,2022-05-05,US,retired,,
+CUST_00374,Small Business,2023-01-21,US,self_employed,Travels frequently for business,international
+CUST_00170,Retail,2023-01-29,US,business_owner,Travels frequently for business,international
+CUST_00420,Retail,2022-05-14,UK,employed,,
+CUST_00345,Retail,2020-04-29,CA,employed,High-value investor,
+CUST_00160,Retail,2022-12-17,US,employed,"Regular customer, no concerns",international
+CUST_00026,HNW,2021-08-03,UK,retired,,international
+CUST_00045,Small Business,2021-06-05,US,retired,Travels frequently for business,
+CUST_00088,HNW,2020-02-03,CA,retired,"Regular customer, no concerns",domestic
+CUST_00235,Retail,2021-06-20,UK,business_owner,Travels frequently for business,domestic
+CUST_00227,Small Business,2021-03-18,US,retired,High-value investor,international
+CUST_00433,Small Business,2021-05-21,US,business_owner,Recently relocated,domestic
+CUST_00471,Retail,2022-07-19,US,self_employed,Recently relocated,domestic
+CUST_00308,Small Business,2021-03-08,US,self_employed,Travels frequently for business,domestic
+CUST_00322,Small Business,2021-11-29,US,retired,High-value investor,domestic
+CUST_00112,Retail,2022-04-03,US,retired,"Regular customer, no concerns",international
+CUST_00060,Retail,2023-03-30,CA,retired,"Regular customer, no concerns",international
+CUST_00282,HNW,2020-07-23,US,business_owner,High-value investor,
+CUST_00035,HNW,2021-03-25,CA,business_owner,Recently relocated,
+CUST_00221,Small Business,2020-03-26,US,self_employed,Recently relocated,domestic
+CUST_00255,Retail,2022-01-21,US,business_owner,"Regular customer, no concerns",domestic
+CUST_00205,Retail,2022-03-05,US,retired,High-value investor,international
+CUST_00470,Small Business,2021-08-02,CA,business_owner,High-value investor,international
+CUST_00214,HNW,2020-03-24,UK,business_owner,"Regular customer, no concerns",
+CUST_00489,HNW,2021-03-01,US,business_owner,"Regular customer, no concerns",domestic
+CUST_00118,HNW,2020-07-03,US,self_employed,"Regular customer, no concerns",domestic
+CUST_00380,Retail,2020-11-23,US,business_owner,"Regular customer, no concerns",domestic
+CUST_00399,Retail,2020-06-24,US,self_employed,"Regular customer, no concerns",domestic
+CUST_00365,Retail,2022-03-11,US,retired,,international
+CUST_00263,HNW,2020-12-19,US,self_employed,Recently relocated,domestic
+CUST_00253,Retail,2020-06-26,US,self_employed,"Regular customer, no concerns",domestic
+CUST_00276,HNW,2022-07-26,UK,employed,Recently relocated,domestic
+CUST_00175,Small Business,2021-09-13,US,employed,Recently relocated,domestic
+CUST_00195,Retail,2021-09-19,US,employed,,domestic
+CUST_00410,Small Business,2022-04-03,US,self_employed,High-value investor,domestic
+CUST_00361,HNW,2020-06-22,US,retired,,
+CUST_00057,Retail,2023-02-10,US,business_owner,"Regular customer, no concerns",domestic
+CUST_00176,Retail,2021-12-24,UK,business_owner,Travels frequently for business,domestic
+CUST_00090,Small Business,2022-08-08,US,employed,,international
+CUST_00111,Retail,2020-02-19,CA,retired,Travels frequently for business,international
+CUST_00310,Small Business,2021-11-14,UK,business_owner,High-value investor,domestic
+CUST_00140,Retail,2020-06-02,US,employed,,domestic
+CUST_00296,Retail,2021-09-08,US,business_owner,Travels frequently for business,domestic
+CUST_00390,Retail,2022-06-11,US,self_employed,,domestic
+CUST_00243,Retail,2022-11-27,US,retired,High-value investor,domestic
+CUST_00292,Retail,2022-05-28,UK,employed,,
+CUST_00337,Retail,2022-08-02,US,retired,Recently relocated,domestic
+CUST_00260,Retail,2022-02-10,US,self_employed,Travels frequently for business,international
+CUST_00089,HNW,2022-05-12,UK,business_owner,"Regular customer, no concerns",domestic
+CUST_00023,Small Business,2021-07-28,UK,employed,Travels frequently for business,domestic
+CUST_00298,HNW,2020-12-19,CA,employed,Travels frequently for business,domestic
+CUST_00104,Retail,2022-12-26,CA,business_owner,Recently relocated,international
+CUST_00009,Retail,2023-02-11,US,employed,Travels frequently for business,domestic
+CUST_00146,Small Business,2020-03-12,US,business_owner,"Regular customer, no concerns",domestic
+CUST_00207,Retail,2020-04-06,CA,self_employed,Travels frequently for business,international
+CUST_00252,Small Business,2020-10-19,CA,retired,High-value investor,international
+CUST_00249,Small Business,2021-05-31,US,self_employed,Travels frequently for business,international
+CUST_00264,Retail,2021-10-11,US,self_employed,Travels frequently for business,international
+CUST_00164,Retail,2021-03-31,UK,employed,High-value investor,international
+CUST_00229,Retail,2022-05-17,US,employed,,
+CUST_00391,Retail,2020-04-09,UK,retired,Recently relocated,international
+CUST_00495,Retail,2022-01-20,US,self_employed,"Regular customer, no concerns",
+CUST_00110,Small Business,2021-06-06,UK,retired,"Regular customer, no concerns",domestic
+CUST_00127,Retail,2022-03-27,US,self_employed,Travels frequently for business,international
+CUST_00473,Retail,2022-02-11,CA,business_owner,,international
+CUST_00271,Small Business,2020-06-12,US,self_employed,Recently relocated,
+CUST_00476,Retail,2021-11-01,US,self_employed,Travels frequently for business,international
+CUST_00480,Retail,2021-11-27,US,business_owner,High-value investor,domestic
+CUST_00043,Retail,2021-07-30,US,retired,,domestic
+CUST_00423,Retail,2020-02-09,US,retired,Travels frequently for business,domestic
+CUST_00115,Retail,2022-01-06,CA,self_employed,Recently relocated,international
+CUST_00168,Retail,2022-09-21,CA,self_employed,,international
+CUST_00278,Retail,2021-11-27,CA,employed,Travels frequently for business,international
+CUST_00186,Retail,2023-02-06,US,retired,"Regular customer, no concerns",domestic
+CUST_00054,Small Business,2023-03-26,UK,employed,High-value investor,domestic
+CUST_00284,HNW,2022-04-30,UK,employed,,international
+CUST_00134,HNW,2021-11-02,US,self_employed,Recently relocated,international
+CUST_00435,HNW,2022-03-19,US,employed,Travels frequently for business,
+CUST_00469,Retail,2021-05-28,US,self_employed,,international
+CUST_00180,Small Business,2022-10-31,UK,employed,Travels frequently for business,international
+CUST_00161,Small Business,2022-03-17,UK,business_owner,"Regular customer, no concerns",
+CUST_00254,HNW,2020-07-29,US,retired,High-value investor,domestic
+CUST_00430,Retail,2021-03-27,US,retired,Travels frequently for business,international
+CUST_00174,Retail,2020-07-16,US,employed,Travels frequently for business,domestic
+CUST_00133,Retail,2022-09-06,US,retired,Recently relocated,
+CUST_00488,Retail,2022-06-02,UK,business_owner,High-value investor,domestic
+CUST_00137,HNW,2020-11-06,US,employed,,international
+CUST_00049,Retail,2021-03-05,US,employed,Recently relocated,domestic
+CUST_00237,HNW,2022-02-17,CA,business_owner,Travels frequently for business,domestic
+CUST_00169,HNW,2020-01-05,UK,business_owner,"Regular customer, no concerns",international
+CUST_00286,Retail,2022-02-19,US,self_employed,Recently relocated,
+CUST_00073,HNW,2020-07-20,US,business_owner,Travels frequently for business,international
+CUST_00434,Retail,2020-11-16,US,retired,Recently relocated,domestic
+CUST_00232,Retail,2022-04-25,US,business_owner,High-value investor,international
+CUST_00412,Retail,2022-01-14,US,employed,High-value investor,domestic
+CUST_00436,Retail,2022-07-15,US,self_employed,"Regular customer, no concerns",international
+CUST_00183,Retail,2022-12-19,US,retired,Recently relocated,
+CUST_00222,Retail,2022-07-05,CA,self_employed,Travels frequently for business,international
+CUST_00114,Retail,2020-03-28,CA,employed,High-value investor,
+CUST_00340,Retail,2021-03-06,UK,business_owner,,international
+CUST_00305,Retail,2023-03-12,CA,retired,Travels frequently for business,international
+CUST_00376,HNW,2022-12-18,US,employed,Travels frequently for business,international
+CUST_00334,HNW,2020-03-17,US,self_employed,Travels frequently for business,domestic
+CUST_00203,Retail,2022-03-23,US,retired,"Regular customer, no concerns",international
+CUST_00481,Retail,2020-05-06,US,retired,"Regular customer, no concerns",international
+CUST_00456,Retail,2020-01-10,US,self_employed,Travels frequently for business,domestic
+CUST_00268,Retail,2023-01-18,CA,business_owner,Recently relocated,domestic
+CUST_00496,Retail,2022-01-27,US,business_owner,Recently relocated,
+CUST_00277,Retail,2022-06-22,US,retired,"Regular customer, no concerns",
+CUST_00106,Retail,2023-02-18,CA,retired,Travels frequently for business,domestic
+CUST_00230,Small Business,2020-10-10,US,business_owner,,
+CUST_00422,Retail,2021-10-18,UK,employed,High-value investor,domestic
+CUST_00295,Retail,2021-01-08,US,business_owner,Recently relocated,international
+CUST_00152,Retail,2021-12-25,UK,business_owner,High-value investor,
+CUST_00333,Retail,2020-07-20,US,retired,Travels frequently for business,domestic
+CUST_00454,Retail,2022-11-29,US,employed,Recently relocated,international
+CUST_00335,HNW,2023-03-03,CA,self_employed,Travels frequently for business,domestic
+CUST_00124,Retail,2020-10-03,UK,self_employed,High-value investor,international
+CUST_00082,Retail,2020-02-01,UK,business_owner,High-value investor,international
+CUST_00447,Retail,2022-01-31,US,self_employed,"Regular customer, no concerns",international
+CUST_00462,Retail,2020-01-02,US,business_owner,Recently relocated,domestic
+CUST_00062,Retail,2021-06-21,US,employed,Recently relocated,international
+CUST_00301,Retail,2022-12-30,CA,retired,Recently relocated,
+CUST_00145,Retail,2022-02-04,US,retired,Travels frequently for business,domestic
+CUST_00047,Retail,2022-05-28,UK,business_owner,High-value investor,international
+CUST_00192,HNW,2020-03-05,US,self_employed,,international
+CUST_00204,Small Business,2021-03-17,UK,self_employed,,international
+CUST_00294,Retail,2022-10-12,US,business_owner,,international
+CUST_00497,Retail,2022-02-20,UK,employed,"Regular customer, no concerns",domestic
+CUST_00086,Retail,2021-09-05,US,self_employed,,domestic
+CUST_00265,Retail,2020-11-13,CA,retired,Travels frequently for business,domestic
+CUST_00193,Retail,2020-04-09,US,employed,High-value investor,
+CUST_00071,Retail,2022-08-31,US,self_employed,High-value investor,international
+CUST_00403,Small Business,2021-11-21,CA,employed,"Regular customer, no concerns",
+CUST_00182,Retail,2023-02-15,US,self_employed,Recently relocated,international
+CUST_00194,Retail,2022-03-21,UK,employed,"Regular customer, no concerns",
+CUST_00151,Retail,2022-02-08,US,employed,"Regular customer, no concerns",domestic
+CUST_00236,Retail,2021-07-14,US,self_employed,Travels frequently for business,international
+CUST_00482,Retail,2020-01-27,UK,retired,"Regular customer, no concerns",domestic
+CUST_00416,Retail,2022-04-10,UK,business_owner,High-value investor,
+CUST_00467,Retail,2021-07-07,US,retired,"Regular customer, no concerns",domestic
+CUST_00201,Small Business,2020-10-13,US,retired,"Regular customer, no concerns",international

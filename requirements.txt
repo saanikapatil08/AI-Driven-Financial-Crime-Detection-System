@@ -1,0 +1,22 @@
+# Core Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# ML Frameworks
+scikit-learn>=1.3.0
+xgboost>=2.0.0
+
+# GenAI (optional - for triage & SAR generation)
+langchain>=0.1.0
+langchain-openai>=0.0.5
+# langchain-google-vertexai>=0.0.6  # For Google Vertex AI
+
+# Optional: PySpark for scale (uncomment if needed)
+# pyspark>=3.5.0
+
+# Web UI
+streamlit>=1.32.0
+plotly>=5.18.0
+
+# Utilities
+python-dotenv>=1.0.0

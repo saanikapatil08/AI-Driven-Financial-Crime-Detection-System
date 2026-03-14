@@ -1,0 +1,19 @@
+customer_id,narrative
+CUST_00052,"DRAFT SAR - CUST_00052
+Subject: CUST_00052
+Segment: Retail
+Alerts: Risk score 0.72. Requires manual investigation
+Recommended Action: Manual review required.
+[Set OPENAI_API_KEY for AI-generated narrative]"
+CUST_00229,"DRAFT SAR - CUST_00229
+Subject: CUST_00229
+Segment: Retail
+Alerts: Risk score 1.00. Requires manual investigation
+Recommended Action: Manual review required.
+[Set OPENAI_API_KEY for AI-generated narrative]"
+CUST_00382,"DRAFT SAR - CUST_00382
+Subject: CUST_00382
+Segment: Retail
+Alerts: Risk score 0.86. Requires manual investigation
+Recommended Action: Manual review required.
+[Set OPENAI_API_KEY for AI-generated narrative]"
