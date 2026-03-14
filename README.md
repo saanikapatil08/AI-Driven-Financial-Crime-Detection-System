@@ -6,7 +6,7 @@
 ![Compliance](https://img.shields.io/badge/Regulatory-MRA--Aligned-red.svg)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey.svg)
 
-## 📌 Project Overview
+## Project Overview
 
 An end-to-end **Anti-Money Laundering (AML) and Fraud Detection** system that combines:
 
@@ -339,8 +339,8 @@ This project is for **educational and portfolio purposes**. All data is syntheti
 
 **Saanika Patil**
 
-- GitHub: [@saanika](https://github.com/saanika)
-- LinkedIn: [Connect](https://linkedin.com/in/YOUR_LINKEDIN)
+- GitHub: [@saanika](https://github.com/saanikapatil08)
+- LinkedIn: [Connect](https://www.linkedin.com/in/saanikapatil/)
 
 ---
 
