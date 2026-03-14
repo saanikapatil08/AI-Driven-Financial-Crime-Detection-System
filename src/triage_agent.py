@@ -1,16 +1,13 @@
-"""
-GenAI Triage Agent - False positive reduction and SAR narrative generation.
-Uses LLM to analyze alerts against customer profiles and filter benign anomalies.
-"""
+"""GenAI triage - uses LLM to filter false positives and generate SAR narratives."""
 
 import pandas as pd
 import os
 from pathlib import Path
-from .config import OUTPUT_DIR, OPENAI_API_KEY, KYC_FILE, TRANSACTIONS_FILE
+from .config import OUTPUT_DIR, OPENAI_API_KEY, KYC_FILE
 
 
 def _get_llm():
-    """Get LLM client if API key is available, else return None for mock mode."""
+    """Returns LLM client if API key exists, otherwise None."""
     try:
         from langchain_openai import ChatOpenAI
         key = os.getenv("OPENAI_API_KEY", OPENAI_API_KEY)
@@ -22,30 +19,21 @@ def _get_llm():
 
 
 def _mock_triage_decision(customer_id: str, risk_score: float, kyc_notes) -> dict:
-    """Fallback when no LLM: rule-based mock triage."""
-    # Simple heuristics for demo
+    """Rule-based fallback when no LLM available."""
     benign_indicators = ["vacation", "travel", "relocated", "business", "regular"]
-    # Handle NaN/None/float values safely
     notes_str = str(kyc_notes) if pd.notna(kyc_notes) else ""
     is_benign = any(ind in notes_str.lower() for ind in benign_indicators)
+    
     if is_benign and risk_score < 0.85:
         return {"decision": "BENIGN", "reason": "Profile indicates legitimate activity (travel/business)"}
     return {"decision": "REVIEW", "reason": "Requires manual investigation"}
 
 
-def triage_alert(
-    customer_id: str,
-    risk_score: float,
-    kyc_profile: dict,
-    transaction_summary: str,
-    llm=None,
-) -> dict:
-    """
-    LLM analyzes whether an alert is a benign anomaly or requires investigation.
-    Cross-references KYC notes, travel tags, etc.
-    """
+def triage_alert(customer_id: str, risk_score: float, kyc_profile: dict, transaction_summary: str, llm=None) -> dict:
+    """LLM decides if alert is benign or needs review."""
     llm = llm or _get_llm()
-    # Safely extract fields, handling NaN values
+    
+    # safely handle NaN values from pandas
     kyc_notes_raw = kyc_profile.get("notes", "")
     kyc_notes = str(kyc_notes_raw) if pd.notna(kyc_notes_raw) else ""
     travel_tag_raw = kyc_profile.get("travel_tag", "")
@@ -85,16 +73,8 @@ REASON: [One sentence explanation]"""
         return _mock_triage_decision(customer_id, risk_score, f"LLM error: {e}")
 
 
-def generate_sar_narrative(
-    customer_id: str,
-    alerts_summary: str,
-    kyc_profile: dict,
-    llm=None,
-) -> str:
-    """
-    Generate a draft SAR (Suspicious Activity Report) or investigation summary.
-    Speeds up human review by ~30%.
-    """
+def generate_sar_narrative(customer_id: str, alerts_summary: str, kyc_profile: dict, llm=None) -> str:
+    """Generates draft SAR narrative using LLM."""
     llm = llm or _get_llm()
     
     if llm is None:
@@ -125,9 +105,7 @@ def run_triage(
     kyc_path: Path = KYC_FILE,
     output_dir: Path = OUTPUT_DIR,
 ) -> pd.DataFrame:
-    """
-    Run triage on high-risk alerts. Reduces false positives by ~22%.
-    """
+    """Processes all high-risk alerts through triage."""
     if not alerts_path.exists():
         raise FileNotFoundError(f"Run detection first. Expected: {alerts_path}")
     
@@ -179,7 +157,7 @@ def run_narrative_generation(
     triage_path: Path = OUTPUT_DIR / "triage_results.csv",
     output_dir: Path = OUTPUT_DIR,
 ) -> None:
-    """Generate draft SAR narratives for alerts requiring review."""
+    """Generates SAR drafts for alerts that need review."""
     if not triage_path.exists():
         run_triage()
         triage_path = OUTPUT_DIR / "triage_results.csv"

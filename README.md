@@ -26,10 +26,10 @@ An end-to-end **Anti-Money Laundering (AML) and Fraud Detection** system that co
 
 ## 🎬 Live Demo
 
-> **[View Live Dashboard](https://your-app-name.streamlit.app)** *(Deploy to see it live)*
+> **[View Live Dashboard](https://ai-driven-financial-crime-detection-system-deu9figyxmunrds5jha.streamlit.app/)**
 
-<!-- Add QR code image here after generating -->
-<!-- ![QR Code](assets/qr_code.png) -->
+### 📱 Scan to View
+![QR Code](assets/qr_code.png)
 
 ---
 

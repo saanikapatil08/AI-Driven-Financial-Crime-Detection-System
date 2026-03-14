@@ -1,23 +1,18 @@
-"""
-Data Ingestion Pipeline for the Financial Crime Detection System.
-Handles structured transaction logs and unstructured KYC data.
-"""
+"""Data ingestion - loads real CSVs or generates synthetic data for demo."""
 
 import pandas as pd
 import numpy as np
-from pathlib import Path
 from datetime import datetime, timedelta
 from .config import DATA_DIR, TRANSACTIONS_FILE, KYC_FILE
 
 
 def generate_synthetic_transactions(n_customers: int = 500, n_transactions: int = 5000) -> pd.DataFrame:
-    """Generate synthetic transaction data for demonstration."""
+    """Creates fake transaction data with some anomalies baked in."""
     np.random.seed(42)
     
     transaction_types = ["wire", "ach", "card", "check", "atm"]
     channels = ["online", "branch", "mobile", "atm"]
-    currencies = ["USD", "USD", "USD", "EUR"]  # USD more common
-    
+    currencies = ["USD", "USD", "USD", "EUR"]
     customers = [f"CUST_{i:05d}" for i in range(n_customers)]
     
     transactions = []
@@ -26,7 +21,9 @@ def generate_synthetic_transactions(n_customers: int = 500, n_transactions: int 
     for i in range(n_transactions):
         cust = np.random.choice(customers)
         amount = np.random.lognormal(mean=5, sigma=2)
-        if np.random.random() < 0.05:  # 5% anomalous high-value
+        
+        # ~5% are high-value outliers (anomalies)
+        if np.random.random() < 0.05:
             amount *= np.random.uniform(10, 100)
         
         transactions.append({
@@ -46,11 +43,11 @@ def generate_synthetic_transactions(n_customers: int = 500, n_transactions: int 
 
 
 def generate_synthetic_kyc(customer_ids: list) -> pd.DataFrame:
-    """Generate synthetic KYC profiles with segment labels."""
+    """Creates fake KYC profiles with segments and notes."""
     segments = ["Retail", "Retail", "Retail", "HNW", "Small Business"]
     
     kyc_data = []
-    for i, cust in enumerate(set(customer_ids)):
+    for cust in set(customer_ids):
         kyc_data.append({
             "customer_id": cust,
             "segment": np.random.choice(segments),
@@ -71,10 +68,7 @@ def generate_synthetic_kyc(customer_ids: list) -> pd.DataFrame:
 
 
 def load_or_create_data() -> tuple[pd.DataFrame, pd.DataFrame]:
-    """
-    Load existing data or create synthetic data if not present.
-    Returns (transactions_df, kyc_df).
-    """
+    """Loads existing CSVs or creates synthetic data if missing."""
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     
     if TRANSACTIONS_FILE.exists():
